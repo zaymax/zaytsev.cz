@@ -42,7 +42,7 @@ export const action: ActionFunction = async ({ request }) => {
 const inputClassName = `w-full rounded border border-gray-500 px-2 py-1 text-lg`;
 
 export default function NewPost() {
-  const errors = useActionData();
+  const errors = useActionData<typeof action>();
   const transition = useTransition();
   const isCreating = Boolean(transition.submission);
   return (
