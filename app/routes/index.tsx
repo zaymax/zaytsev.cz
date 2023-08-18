@@ -15,7 +15,7 @@ export default function Index() {
             <div className="relative px-4 pb-8 pt-16 sm:px-6 sm:pt-24 sm:pb-14 lg:px-8 lg:pb-20 lg:pt-24">
               <h1 className="text-center text-6xl font-extrabold tracking-tight sm:text-8xl lg:text-9xl">
                 <span className="block uppercase text-white drop-shadow-md">
-                  Maksim Zaytsev
+                  <a href="https://www.linkedin.com/in/zaytsevcz/" className="hover:underline">Maksim Zaytsev</a>
                 </span>
               </h1>
               <p className="mx-auto mt-6 max-w-lg text-center text-xl sm:max-w-3xl">
